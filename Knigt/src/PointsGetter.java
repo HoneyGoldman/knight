@@ -43,7 +43,7 @@ public static ArrayList<Point> get8points(ArrayList<Point> array) {
 	
 	}
 	for (int i = 0; i < points.size(); i++) {
-		if ((points.get(i).getX()<0) || (points.get(i).getY()<=0))
+		if ((points.get(i).getX()<0) || (points.get(i).getY()<0))
 		{
 			System.out.println("Point removed: ("+ points.get(i).getX()+","+points.get(i).getY()+")");
 			points.remove(i);
